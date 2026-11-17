@@ -116,3 +116,18 @@ AGENTS.override.md
 /.devcontainer/
 .claude/plans/
 local-notes/
+
+# Local portfolio application data and private materials
+.data/
+.local-results/
+*.db
+*.sqlite
+*.duckdb
+*.duckdb.wal
+.env
+.env.*
+*.docx
+*.pdf
+__pycache__/
+portfolio_evals/results/scripted.json
+portfolio_evals/results/live.json
